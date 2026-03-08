@@ -19,9 +19,9 @@ public class Bank implements Serializable {
 
     // Seed some default test accounts
     private void seedDefaultAccounts() {
-        accounts.put("1111222233334444", new BankAccount("1111222233334444", "1234", "Alice Johnson", 5000.00));
-        accounts.put("5555666677778888", new BankAccount("5555666677778888", "5678", "Bob Smith", 3000.00));
-        accounts.put("9999000011112222", new BankAccount("9999000011112222", "9999", "Carol White", 7500.00));
+        accounts.put("1111222233334444", new BankAccount("1111222233334444", "1234", "Uday", 5000.00));
+        accounts.put("5555666677778888", new BankAccount("5555666677778888", "5678", "Rahul", 3000.00));
+        accounts.put("9999000011112222", new BankAccount("9999000011112222", "9999", "Atharv", 7500.00));
         saveData();
         System.out.println("✅ Default accounts loaded.");
     }
